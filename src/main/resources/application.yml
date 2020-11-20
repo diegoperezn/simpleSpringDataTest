@@ -1,6 +1,3 @@
-server:
-  port: 8710
-
 spring:
   datasource:
     url: jdbc:postgresql://ec2-54-163-47-62.compute-1.amazonaws.com:5432/df9ne5l0esfkb1
