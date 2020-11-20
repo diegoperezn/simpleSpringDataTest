@@ -1,0 +1,16 @@
+server:
+  port: 8710
+
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-54-163-47-62.compute-1.amazonaws.com:5432/df9ne5l0esfkb1
+    username: jpjfpcccilttyj
+    password: 01449198e7450e5bcf44babff2ae03358e45c17394947d1d0999092d2495cc11
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      dialect: org.hibernate.dialect.PostgreSQLDialect
